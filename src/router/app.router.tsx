@@ -5,6 +5,7 @@ import { createHashRouter, Navigate } from "react-router";
 
 const ProjectsPage = lazy(() => import('../pages/ProjectsPage'));
 const AboutPage = lazy(() => import('../pages/AboutPage'));
+const ContactPage = lazy(() => import('../pages/ContactPage'));
 
 
 export const AppRouter = createHashRouter([
@@ -23,6 +24,10 @@ export const AppRouter = createHashRouter([
       {
         path: "about",
         element: <AboutPage />,
+      },
+      {
+        path: "contact",
+        element: <ContactPage />,
       },
     ],
   },
