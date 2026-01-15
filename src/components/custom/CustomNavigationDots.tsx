@@ -7,7 +7,7 @@ export const CustomNavigationDots = () => {
 
 
  return (
-    <div className="fixed right-8 top-1/2 transform -translate-y-1/2 flex flex-col gap-6 z-50 md:flex">
+    <div className="fixed right-8 top-1/2 transform -translate-y-1/2 flex flex-col gap-6 z-50 md:flex sm: hidden">
       {NAV_ITEMS.map((item) => {
         const isActive = pathname === item.path;
 

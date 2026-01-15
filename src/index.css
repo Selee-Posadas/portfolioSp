@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -123,6 +127,39 @@
   }
 }
 
+
+
+.cyber-scrollbar::-webkit-scrollbar {
+  height: 8px !important;
+  width: 8px !important;
+}
+
+.cyber-scrollbar::-webkit-scrollbar-track {
+  background: transparent !important; 
+  border-radius: 4px;
+  margin-block: 10px;
+}
+
+.cyber-scrollbar::-webkit-scrollbar-thumb {
+  background: #d946ef !important; 
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cyber-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #f0abfc !important; 
+  box-shadow: 0 0 10px #d946ef; 
+}
+
+
+.cyber-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #d946ef rgba(255, 255, 255, 0.05);
+}
+
 @theme {
-  font-family: "Orbitron", sans-serif;
+  
+  --font-orbitron: "Orbitron", sans-serif;
+
+  --font-mono: "Orbitron", ui-monospace, SFMono-Regular, monospace;
 }

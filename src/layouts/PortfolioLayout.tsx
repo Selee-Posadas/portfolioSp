@@ -49,7 +49,7 @@ export const PortfolioLayout = () => {
           animate={{ x: 0, opacity: 1 }}
           exit={{ x: "-100%", opacity: 0 }} 
           transition={{ duration: 0.5, ease: "easeInOut" }}
-          className="h-screen w-full"
+          className="h-screen w-full overflow-y-auto overflow-x-hidden cyber-scrollbar relative z-10"
         >
           <Outlet />
         </motion.div>

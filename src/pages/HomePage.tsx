@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import ProfilePic from '../assets/sp_picture_p.png';
+import { Link } from "react-router";
 
 export const HomePage = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
 
-      <div className="relative z-10 h-full w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center px-8">
+      <div className="relative z-10 h-full w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center px-8 pt-28 md:pt-0">
 
         <motion.div 
           initial={{ scale: 0, opacity: 0 }}
@@ -35,7 +36,7 @@ export const HomePage = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="text-5xl md:text-7xl font-black tracking-tighter mb-6 leading-tight"
+            className="font-orbitron text-5xl md:text-7xl font-black tracking-tighter mb-6 leading-tight"
           >
             SELENE <br className="hidden md:block"/> POSADAS
           </motion.h1>
@@ -53,9 +54,9 @@ export const HomePage = () => {
              animate={{ y: 0, opacity: 1 }}
              transition={{ delay: 0.8 }}
           >
-            <a href="/projects" className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider">
+            <Link to="/projects" className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider">
               VER PROYECTOS
-            </a>
+            </Link>
           </motion.div>
         </div>
 
