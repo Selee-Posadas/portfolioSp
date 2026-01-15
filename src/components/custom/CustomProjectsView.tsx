@@ -7,7 +7,7 @@ export const CustomProjectsView = () => {
     <div className="w-full relative">
       <div 
         className="
-          flex gap-6 overflow-x-auto snap-x snap-mandatory w-full px-4 pb-4 mb-8 
+          flex gap-6 overflow-x-auto snap-x snap-mandatory w-full px-2 pb-4 mb-8 
           cyber-scrollbar scroll-smooth
         "
       >

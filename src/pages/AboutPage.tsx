@@ -2,27 +2,21 @@
 import { motion } from "framer-motion";
 import { CustomBioTerminal } from "../components/custom/CustomBioTerminal";
 import { SKILLS } from "../data/skills";
+import { CustomTitle } from "@/components/custom/CustomTitle";
 
 export const AboutPage = () => {
   return (
-    <div className="relative z-10 w-full min-h-[80vh] flex flex-col justify-center items-center px-4 md:px-12 pt-20 md:pt-20 pb-13">
+    <div className="relative z-10 w-full  flex flex-col  items-center px-4 md:px-12 pt-20 md:pt-20 pb-13">
       
-      
-      <motion.div 
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="w-full max-w-6xl mb-8 border-b border-white/10 pb-4"
-      >
-        <h2 className="text-4xl md:text-6xl font-black tracking-tighter text-white mb-2 font-orbitron">
-          SYSTEM <span className="text-transparent bg-clip-text bg-linear-to-r from-fuchsia-500 to-cyan-500">SPECS</span>
-        </h2>
-        <p className="text-sm font-mono text-gray-400 tracking-widest">
-          // HARDWARE & SOFTWARE CONFIGURATION
-        </p>
-      </motion.div>
+      <CustomTitle 
+      titleWhite="SYSTEM" 
+      titleColors="SPECS" 
+      subtitle="// HARDWARE & SOFTWARE CONFIGURATION"
+      className="w-full max-w-6xl mb-4"
+      />
 
       
-      <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      <div className="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
         
         
         <motion.div
