@@ -1,3 +1,6 @@
+import TesloShop from '../assets/teslo_shop.png';
+import HeroesApp from '../assets/heroesapp.png';
+import PadelMate from '../assets/padelmate.png';
 export interface Project {
   id: number;
   title: string;
@@ -5,40 +8,45 @@ export interface Project {
   tags: string[];
   image: string;
   link: string;
+  github: string;
 }
 
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "NEON DASHBOARD",
-    description: "Panel de administración con estadísticas en tiempo real y modo oscuro.",
-    tags: ["REACT", "TAILWIND", "RECHARTS"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop", 
-    link: "#"
+    title: "TESLO SHOP",
+    description: "Proyecto práctico de React de tienda de productos. Proyecto basado en el curso 'React: De Cero a Experto' de Fernando Herrera (DevTalles).",
+    tags: ["REACT", "REACT ROUTER", 'TANSTACK', 'AXIOS', "TAILWIND", 'SHADCN' ],
+    image: TesloShop, 
+    link: "https://teslo-shop-sp.netlify.app/",
+    github: 'https://github.com/Selee-Posadas/teslo-shop',
   },
   {
     id: 2,
-    title: "CYBER COMMERCE",
-    description: "E-commerce completo con carrito de compras y pasarela de pagos.",
-    tags: ["NEXT.JS", "TYPESCRIPT", "STRIPE"],
-    image: "https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=2670&auto=format&fit=crop",
-    link: "#"
+    title: "HeroesApp",
+    description: "Proyecto práctico de React SPA de heroes de DC. Proyecto basado en el curso 'React: De Cero a Experto' de Fernando Herrera (DevTalles).",
+    tags: ["REACT", "TYPESCRIPT", "TAILWIND", "SHADCN", 'REACT ROUTER', 'TANSTACK', 'CONTEXT', 'VITEST'],
+    image: HeroesApp,
+    link: "https://selee-posadas.github.io/heroes-app/",
+    github: 'https://github.com/Selee-Posadas/heroes-app',
   },
   {
     id: 3,
-    title: "AI CHAT INTERFACE",
-    description: "Interfaz de chat moderna conectada a la API de OpenAI.",
-    tags: ["REACT", "FRAMER MOTION", "API"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2532&auto=format&fit=crop",
-    link: "#"
+    title: "PADELMATE",
+    description: "PadelMate es una aplicación web diseñada para facilitar la reserva de canchas de pádel y la gestión de clubes, jugadores y turnos en un entorno digital moderno.",
+    tags: ["ANGULAR", "NESTJS", 'TYPESCRIPT', 'MYSQL', 'DOCKER', 'TYPEORM', 'JWT','SCSS','CHARTS'],
+    image: PadelMate,
+    link: "#",
+    github: 'https://github.com/Selee-Posadas/xacademy-padel',
   },
   {
     id: 4,
-    title: "CRYPTO WALLET",
-    description: "Billetera digital para gestión de activos y NFTs.",
-    tags: ["REACT NATIVE", "FIREBASE"],
-    image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=2555&auto=format&fit=crop",
-    link: "#"
+    title: "FIFA LEYENDS",
+    description: "Aplicacion web para gestionar jugadores de fifa y sus estadisticas. Desarrollada como parte del bootcamp xAcademy",
+    tags: ["ANGULAR", "MYSQL", 'NESTJS', 'TYPESCRIPT','TYPEORM', 'JWT', 'DOCKER', 'SCSS', 'CHARTS', ],
+    image: PadelMate,
+    link: "#",
+    github: 'https://github.com/Selee-Posadas/Fifa-leyends',
   },
   {
     id: 5,
@@ -46,7 +54,8 @@ export const PROJECTS: Project[] = [
     description: "Interfaz de chat moderna conectada a la API de OpenAI.",
     tags: ["REACT", "FRAMER MOTION", "API"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2532&auto=format&fit=crop",
-    link: "#"
+    link: "#",
+    github: 'https://github.com/Selee-Posadas/teslo-shop',
   },
   {
     id: 6,
@@ -54,6 +63,7 @@ export const PROJECTS: Project[] = [
     description: "Interfaz de chat moderna conectada a la API de OpenAI.",
     tags: ["REACT", "FRAMER MOTION", "API"],
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2532&auto=format&fit=crop",
-    link: "#"
+    link: "#",
+    github: 'https://github.com/Selee-Posadas/teslo-shop',
   }
 ];

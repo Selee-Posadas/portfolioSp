@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 export const CustomFooter = () => {
   return (
-    <footer className="fixed bottom-0 left-0 w-full z-50 flex items-center justify-between px-8 py-6 bg-linear-to-t from-black via-black/80 to-transparent backdrop-blur-[2px]">
+    <footer className="fixed bottom-0 left-0 w-full z-50 flex items-center justify-between px-8 py-5 bg-linear-to-t from-black via-black/80 to-transparent backdrop-blur-[2px]">
         <div className="flex items-center">
         <span className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-gray-500 uppercase">
           © {new Date().getFullYear()} Selene Posadas

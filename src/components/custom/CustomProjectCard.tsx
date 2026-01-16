@@ -37,7 +37,7 @@ export const CustomProjectCard = ({ project, index }: { project: Project; index:
           </div>
           
           <div className="flex gap-3">
-             <Link to={project.link} className="text-gray-400 hover:text-white transition-colors"><Github size={18}/></Link>
+             <Link to={project.github} className="text-gray-400 hover:text-white transition-colors"><Github size={18}/></Link>
              <Link to={project.link} className="text-gray-400 hover:text-white transition-colors"><ExternalLink size={18}/></Link>
           </div>
         </div>

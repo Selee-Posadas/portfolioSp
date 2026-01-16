@@ -10,6 +10,10 @@ export const CustomProjectsView = () => {
           flex gap-6 overflow-x-auto snap-x snap-mandatory w-full px-2 pb-4 mb-8 
           cyber-scrollbar scroll-smooth
         "
+        style={{
+          maskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)',
+          WebkitMaskImage: 'linear-gradient(to right, transparent, black 10%, black 90%, transparent)'
+        }}
       >
         {PROJECTS.map((project, index) => (
           <motion.div
