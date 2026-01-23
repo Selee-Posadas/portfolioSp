@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin } from "lucide-react";
 export const SOCIAL_LINKS = [
   {
     label: "EMAIL",
-    value: "selene.dev@gmail.com",
+    value: "seleneposadass@gmail.com",
     toUrl: "mailto:seleneposadass@gmail.com",
     icon: Mail
   },

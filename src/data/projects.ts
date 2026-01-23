@@ -1,6 +1,7 @@
 import TesloShop from '../assets/teslo_shop.png';
 import HeroesApp from '../assets/heroesapp.png';
 import PadelMate from '../assets/padelmate.png';
+import FifaLegends from '../assets/fifa_legends.png';
 export interface Project {
   id: number;
   title: string;
@@ -44,26 +45,8 @@ export const PROJECTS: Project[] = [
     title: "FIFA LEYENDS",
     description: "Aplicacion web para gestionar jugadores de fifa y sus estadisticas. Desarrollada como parte del bootcamp xAcademy",
     tags: ["ANGULAR", "MYSQL", 'NESTJS', 'TYPESCRIPT','TYPEORM', 'JWT', 'DOCKER', 'SCSS', 'CHARTS', ],
-    image: PadelMate,
+    image: FifaLegends,
     link: "https://fifa-leyends.vercel.app/home",
     github: 'https://github.com/Selee-Posadas/Fifa-leyends',
   },
-  {
-    id: 5,
-    title: "AI CHAT INTERFACE",
-    description: "Interfaz de chat moderna conectada a la API de OpenAI.",
-    tags: ["REACT", "FRAMER MOTION", "API"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2532&auto=format&fit=crop",
-    link: "#",
-    github: 'https://github.com/Selee-Posadas/teslo-shop',
-  },
-  {
-    id: 6,
-    title: "AI CHAT INTERFACE",
-    description: "Interfaz de chat moderna conectada a la API de OpenAI.",
-    tags: ["REACT", "FRAMER MOTION", "API"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2532&auto=format&fit=crop",
-    link: "#",
-    github: 'https://github.com/Selee-Posadas/teslo-shop',
-  }
 ];
