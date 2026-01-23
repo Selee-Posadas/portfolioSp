@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
     description: "Aplicacion web para gestionar jugadores de fifa y sus estadisticas. Desarrollada como parte del bootcamp xAcademy",
     tags: ["ANGULAR", "MYSQL", 'NESTJS', 'TYPESCRIPT','TYPEORM', 'JWT', 'DOCKER', 'SCSS', 'CHARTS', ],
     image: PadelMate,
-    link: "#",
+    link: "https://fifa-leyends.vercel.app/home",
     github: 'https://github.com/Selee-Posadas/Fifa-leyends',
   },
   {

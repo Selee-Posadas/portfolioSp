@@ -1,4 +1,4 @@
-import { Code2, Database, Layout, Server, Settings, Terminal, Globe, Cpu, Box } from "lucide-react";
+import { Database, Layout, Settings } from "lucide-react";
 
 export const SKILLS = [
   {

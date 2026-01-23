@@ -49,7 +49,7 @@ export const AboutPage = () => {
 
               
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                {skillGroup.techs.map((tech, i) => (
+                {skillGroup.techs.map((tech) => (
                   <motion.div
                     key={tech}
                     whileHover={{ scale: 1.05, borderColor: "rgba(217,70,239,0.5)" }}
