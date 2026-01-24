@@ -58,7 +58,7 @@ export const HomePage = () => {
             <Link to="/projects" className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider">
               VER PROYECTOS
             </Link>
-            <Link to='/portfolioSp/cv.pdf'
+            <Link to='/cv.pdf'
               className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider"
               download='Selene_Posadas_CV.pdf'
               target="_blank"
