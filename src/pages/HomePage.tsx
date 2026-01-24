@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import ProfilePic from '../assets/sp_picture_p.png';
+import CVSelenePosadas from '../assets/cv_Selene-Posadas.pdf';
 import { Link } from "react-router";
 
 export const HomePage = () => {
@@ -53,9 +54,18 @@ export const HomePage = () => {
              initial={{ y: 20, opacity: 0 }}
              animate={{ y: 0, opacity: 1 }}
              transition={{ delay: 0.8 }}
+             className="flex flex-row items-center justify-center md:justify-start gap-4"
           >
             <Link to="/projects" className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider">
               VER PROYECTOS
+            </Link>
+            <Link to="/portfolioSp/cv_Selene-Posadas.pdf"
+             className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider"
+              download={CVSelenePosadas}
+              target="_blank"
+              rel="noopener noreferrer"
+             >
+              Descargar CV
             </Link>
           </motion.div>
         </div>
