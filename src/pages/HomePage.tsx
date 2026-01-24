@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import ProfilePic from '../assets/sp_picture_p.png';
-import CVSelenePosadas from '../assets/cv_Selene-Posadas.pdf';
 import { Link } from "react-router";
 
 export const HomePage = () => {
@@ -9,7 +8,7 @@ export const HomePage = () => {
 
       <div className="relative z-10 h-full w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center px-8 pt-28 md:pt-0">
 
-        <motion.div 
+        <motion.div
           initial={{ scale: 0, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.6 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
@@ -25,7 +24,7 @@ export const HomePage = () => {
         />
 
         <div className="flex-1 order-2 md:order-1 text-center md:text-left z-20 mt-4 md:mt-0 pb-24 md:pb-0">
-          <motion.h2 
+          <motion.h2
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -33,15 +32,15 @@ export const HomePage = () => {
           >
             HOLA, SOY
           </motion.h2>
-          <motion.h1 
+          <motion.h1
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
             className="font-orbitron text-5xl md:text-7xl font-black tracking-tighter mb-6 leading-tight"
           >
-            SELENE <br className="hidden md:block"/> POSADAS
+            SELENE <br className="hidden md:block" /> POSADAS
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6 }}
@@ -49,22 +48,22 @@ export const HomePage = () => {
           >
             Desarrolladora Frontend. Creo experiencias digitales inmersivas y funcionales.
           </motion.p>
-          
+
           <motion.div
-             initial={{ y: 20, opacity: 0 }}
-             animate={{ y: 0, opacity: 1 }}
-             transition={{ delay: 0.8 }}
-             className="flex flex-row items-center justify-center md:justify-start gap-4"
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.8 }}
+            className="flex flex-row items-center justify-center md:justify-start gap-4"
           >
             <Link to="/projects" className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider">
               VER PROYECTOS
             </Link>
-            <Link to="/portfolioSp/cv_Selene-Posadas.pdf"
-             className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider"
-              download={CVSelenePosadas}
+            <Link to='/portfolioSp/cv.pdf'
+              className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider"
+              download='Selene_Posadas_CV.pdf'
               target="_blank"
               rel="noopener noreferrer"
-             >
+            >
               Descargar CV
             </Link>
           </motion.div>
@@ -77,10 +76,10 @@ export const HomePage = () => {
             transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
             className="relative w-fit mx-auto"
           >
-              <img 
-                src={ProfilePic} 
-                alt="Selene Posadas" 
-                className="
+            <img
+              src={ProfilePic}
+              alt="Selene Posadas"
+              className="
                   w-auto 
                   h-[35vh]
                   sm:h-[45vh]
@@ -90,7 +89,7 @@ export const HomePage = () => {
                   drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]
                   mask-[linear-gradient(to_bottom,black_80%,transparent_100%)]
                 "
-              />
+            />
           </motion.div>
         </div>
 
