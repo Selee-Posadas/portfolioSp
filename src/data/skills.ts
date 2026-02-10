@@ -9,7 +9,7 @@ export const SKILLS = [
   {
     category: "BACKEND & DATA",
     icon: Database,
-    techs: ["NestJS", "Node.js", "PL/SQL", "MySQL"]
+    techs: ["NestJS", "Node.js", "PL/SQL", "MySQL", 'PrismaORM', 'TypeORM', 'PostgreSQL']
   },
   {
     category: "DEV OPS & TOOLS",

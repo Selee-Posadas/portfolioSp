@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import { motion } from "framer-motion";
 import { CustomBioTerminal } from "../components/custom/CustomBioTerminal";
 import { SKILLS } from "../data/skills";

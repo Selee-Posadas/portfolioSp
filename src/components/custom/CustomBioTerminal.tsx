@@ -50,10 +50,10 @@ export const CustomBioTerminal = () => {
           className="pt-4 text-gray-400 leading-relaxed"
         >
           <p>
-            <span className="text-green-400">SUCCESS:</span> Desarrolladora en transición de sistemas Legacy a tecnologías modernas. 
-            Especializada en crear interfaces reactivas y escalables.
+            <span className="text-green-400">SUCCESS:</span> +3 años de trayectoria analizando y resolviendo desafíos lógicos en sistemas productivos de alta complejidad.
+            Evolucionando hacia el dominio total del stack moderno (React/NestJS).
             <br/><br/>
-            Actualmente equipada con stack React/Angular y expandiendo capacidades en Backend con NestJS.
+            En búsqueda constante del Full Stack Mastery mediante Clean Architecture.
           </p>
         </motion.div>
 

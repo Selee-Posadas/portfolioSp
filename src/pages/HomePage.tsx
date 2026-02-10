@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 export const HomePage = () => {
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="h-screen w-full overflow-y-auto overflow-x-hidden cyber-scrollbar relative z-10">
 
       <div className="relative z-10 h-full w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center px-8 pt-28 md:pt-0">
 
@@ -46,7 +46,7 @@ export const HomePage = () => {
             transition={{ delay: 0.6 }}
             className="text-gray-400 text-lg md:text-xl max-w-md mx-auto md:mx-0 mb-8"
           >
-            Desarrolladora Frontend. Creo experiencias digitales inmersivas y funcionales.
+            Estudiante de Ingeniería en Sistemas. Cuento con 3 años de experiencia en software crítico. Desarrollo soluciones escalables uniendo la robustez del Backend con la agilidad de React y NestJS.
           </motion.p>
 
           <motion.div

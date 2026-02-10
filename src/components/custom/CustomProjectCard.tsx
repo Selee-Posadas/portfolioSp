@@ -32,7 +32,8 @@ export const CustomProjectCard = ({ project, index }: { project: Project; index:
               {project.title}
             </h3>
             <span className="text-[10px] text-gray-500 font-mono tracking-widest uppercase">
-              PROJ_0{project.id} // SYSTEM_READY
+              PROJ_0{project.id} // 
+              <span className="px-3 py-1 text-[10px] font-bold tracking-wider text-green-300 bg-green-900/20 border border-b-green-500/20 rounded-sm">{project.state}</span>
             </span>
           </div>
           
