@@ -5,6 +5,7 @@ import PadelMate from '../assets/padelmate.png';
 import FifaLegends from '../assets/fifa_legends.png';
 import Organizapi from '../assets/diagramaOrganizapi.png'
 import Portfolio from '../assets/PortfolioSP.png'
+import ChallengApp from '../assets/ChallengApp.png'
 
 export type State = 'DONE' | 'IN_PROCESS'  | 'ROADMAP' | 'TEAM_VERSION'
 export interface Project {
@@ -69,9 +70,20 @@ export const PROJECTS: Project[] = [
     github: 'https://github.com/Selee-Posadas/Fifa-leyends',
     state: 'DONE'
   },
-  
+
   {
     id: 6,
+    title: "ChallengApp",
+    description: "Solución técnica desarrollada para un proceso de selección internacional, enfocada en la integración de datos y la optimización de interfaces.",
+    tags: ["REACT", "TYPESCRIPT", "TAILWIND", "SHADCN", 'API', 'TANSTACK', 'CONTEXT', 'WORKFLOW'],
+    image: ChallengApp,
+    link: "https://selee-posadas.github.io/ng-challenge-sp/",
+    github: 'https://github.com/Selee-Posadas/ng-challenge-sp.git',
+    state: 'DONE'
+  },
+  
+  {
+    id: 7,
     title: "HeroesApp",
     description: "Proyecto práctico de React SPA de heroes de DC. Proyecto basado en el curso 'React: De Cero a Experto' de Fernando Herrera (DevTalles).",
     tags: ["REACT", "TYPESCRIPT", "TAILWIND", "SHADCN", 'REACT ROUTER', 'TANSTACK', 'CONTEXT', 'VITEST'],
@@ -80,4 +92,5 @@ export const PROJECTS: Project[] = [
     github: 'https://github.com/Selee-Posadas/heroes-app',
     state: 'DONE'
   },
+
 ];
