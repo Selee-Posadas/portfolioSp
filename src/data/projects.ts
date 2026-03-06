@@ -4,6 +4,7 @@ import HeroesApp from '../assets/heroesapp.png';
 import PadelMate from '../assets/padelmate.png';
 import FifaLegends from '../assets/fifa_legends.png';
 import Organizapi from '../assets/diagramaOrganizapi.png'
+import Portfolio from '../assets/PortfolioSP.png'
 
 export type State = 'DONE' | 'IN_PROCESS'  | 'ROADMAP' | 'TEAM_VERSION'
 export interface Project {
@@ -40,6 +41,16 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 3,
+    title: "Portfolio Personal",
+    description: "Desarrollado con React y TypeScript, diseñado para centralizar mi trayectoria y proyectos. Implementa integración con EmailJS para la gestión de contactos.",
+    tags: ['REACT', 'TYPESCRIPT', 'EMAILSJS', 'WORKFLOW', 'TAILWIND', 'SOLID'],
+    image: Portfolio,
+    link: "https://selee-posadas.github.io/portfolioSp/#/",
+    github: 'https://github.com/Selee-Posadas/portfolioSp.git',
+    state: 'IN_PROCESS'
+  },
+  {
+    id: 4,
     title: "PADELMATE",
     description: "PadelMate es una aplicación web diseñada para facilitar la reserva de canchas de pádel y la gestión de clubes, jugadores y turnos en un entorno digital moderno.",
     tags: ["ANGULAR", "NESTJS", 'TYPESCRIPT', 'MYSQL', 'DOCKER', 'TYPEORM', 'JWT','SCSS','CHARTS'],
@@ -49,7 +60,7 @@ export const PROJECTS: Project[] = [
     state: 'TEAM_VERSION'
   },
   {
-    id: 4,
+    id: 5,
     title: "FIFA LEYENDS",
     description: "Aplicacion web para gestionar jugadores de fifa y sus estadisticas. Desarrollada como parte del bootcamp xAcademy",
     tags: ["ANGULAR", "MYSQL", 'NESTJS', 'TYPESCRIPT','TYPEORM', 'JWT', 'DOCKER', 'SCSS', 'CHARTS', ],
@@ -60,7 +71,7 @@ export const PROJECTS: Project[] = [
   },
   
   {
-    id: 5,
+    id: 6,
     title: "HeroesApp",
     description: "Proyecto práctico de React SPA de heroes de DC. Proyecto basado en el curso 'React: De Cero a Experto' de Fernando Herrera (DevTalles).",
     tags: ["REACT", "TYPESCRIPT", "TAILWIND", "SHADCN", 'REACT ROUTER', 'TANSTACK', 'CONTEXT', 'VITEST'],
