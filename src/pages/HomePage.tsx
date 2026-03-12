@@ -46,7 +46,7 @@ export const HomePage = () => {
             transition={{ delay: 0.6 }}
             className="text-gray-400 text-lg md:text-xl max-w-md mx-auto md:mx-0 mb-8"
           >
-            Estudiante de Ingeniería en Sistemas. Cuento con 3 años de experiencia en software crítico. Desarrollo soluciones escalables uniendo la robustez del Backend con la agilidad de React y NestJS.
+            Software Developer y Estudiante de Ingeniería en Sistemas. Cuento con 3 años de experiencia en software crítico. Desarrollo soluciones escalables uniendo la robustez del Backend con la agilidad de React y NestJS.
           </motion.p>
 
           <motion.div

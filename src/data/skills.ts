@@ -20,7 +20,7 @@ export const SKILLS = [
 
 export const STATS = [
   { label: "LEVEL (AGE)", value: "26" },
-  { label: "CLASS", value: "Engineering Student" },
+  { label: "CLASS", value: "Software Developer" },
   { label: "XP", value: "3+ Years (Legacy + Modern)" }, 
   { label: "MAIN QUEST", value: "Full Stack Mastery" },
 ];
