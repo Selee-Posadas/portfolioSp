@@ -50,7 +50,9 @@ export const CustomBioTerminal = () => {
           className="pt-4 text-gray-400 leading-relaxed"
         >
           <p>
-            <span className="text-green-400">SUCCESS:</span> +3 años de trayectoria analizando y resolviendo desafíos lógicos en sistemas productivos de alta complejidad.
+            <span className="text-green-400">SUCCESS:</span>
+             (ESTO ES UN CAMBIO HECHO DE PRUEBA)
+             +3 años de trayectoria analizando y resolviendo desafíos lógicos en sistemas productivos de alta complejidad.
             Evolucionando hacia el dominio total del stack moderno (React/NestJS).
             <br/><br/>
             En búsqueda constante del Full Stack Mastery mediante Clean Architecture.

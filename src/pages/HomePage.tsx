@@ -56,7 +56,7 @@ export const HomePage = () => {
             className="flex flex-row items-center justify-center md:justify-start gap-4"
           >
             <Link to="/projects" className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider">
-              VER PROYECTOS (ESTO ES UN CAMBIO HECHO DE PRUEBA)
+              VER PROYECTOS
             </Link>
             <Link to='https://selee-posadas.github.io/portfolioSp/SelenePosadasCV.pdf'
               className="inline-block px-8 py-3 bg-fuchsia-600 hover:bg-fuchsia-700 transition-colors text-white font-bold rounded-sm tracking-wider"
