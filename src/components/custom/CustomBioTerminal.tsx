@@ -51,7 +51,6 @@ export const CustomBioTerminal = () => {
         >
           <p>
             <span className="text-green-400">SUCCESS:</span>
-             (ESTO ES UN CAMBIO HECHO DE PRUEBA)
              +3 años de trayectoria analizando y resolviendo desafíos lógicos en sistemas productivos de alta complejidad.
             Evolucionando hacia el dominio total del stack moderno (React/NestJS).
             <br/><br/>
