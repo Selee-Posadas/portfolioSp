@@ -87,7 +87,7 @@ export const HomePage = () => {
                   grayscale brightness-110 contrast-125
                   object-cover pointer-events-none select-none
                   drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]
-                  mask-[linear-gradient(to_bottom,black_80%,transparent_100%)]
+                  mask-[radial-gradient(circle_at_center,black_10%,transparent_100%)]
                 "
             />
           </motion.div>
