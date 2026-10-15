@@ -3,9 +3,10 @@ import TesloShop from '../assets/teslo_shop.png';
 import HeroesApp from '../assets/heroesapp.png';
 import PadelMate from '../assets/padelmate.png';
 import FifaLegends from '../assets/fifa_legends.png';
-import Organizapi from '../assets/diagramaOrganizapi.png'
-import Portfolio from '../assets/PortfolioSP.png'
-import ChallengApp from '../assets/ChallengApp.png'
+// import Organizapi from '../assets/diagramaOrganizapi.png';
+import Organizapp from '../assets/vista_organizapp.png';
+import Portfolio from '../assets/PortfolioSP.png';
+import ChallengApp from '../assets/ChallengApp.png';
 
 export type State = 'DONE' | 'IN_PROCESS'  | 'ROADMAP' | 'TEAM_VERSION'
 export interface Project {
@@ -22,6 +23,16 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     id: 1,
+    title: "OrganizAPP",
+    description: "WEB de gestión integral para la vida personal y académica. Permite organizar estudios universitario, finanzas, bienestar y logistica del hogar.",
+    tags: ['NESTJS', 'TYPESCRIPT', 'PRISMAORM', 'SUPABASE', 'AUTH', 'JWT', 'POSTGRESQL', 'HEXAGONAL', 'REACT'],
+    image: Organizapp,
+    link: "https://organizapp-web.vercel.app/",
+    github: 'https://github.com/Selee-Posadas/organizapi.git',
+    state: 'IN_PROCESS'
+  },
+  {
+    id: 2,
     title: "TESLO SHOP",
     description: "Proyecto práctico de React de tienda de productos inspirados en Tesla. Proyecto basado en el curso 'React: De Cero a Experto' de Fernando Herrera (DevTalles).",
     tags: ["REACT", "REACT ROUTER", 'TANSTACK', 'AXIOS', "TAILWIND", 'SHADCN' ],
@@ -29,16 +40,6 @@ export const PROJECTS: Project[] = [
     link: "https://teslo-shop-sp.netlify.app/",
     github: 'https://github.com/Selee-Posadas/teslo-shop',
     state: 'ROADMAP'
-  },
-  {
-    id: 2,
-    title: "OrganizAPI",
-    description: "API de gestión integral para la vida personal y académica. Permite organizar estudios universitario, finanzas, bienestar y logistica del hogar.",
-    tags: ['NESTJS', 'TYPESCRIPT', 'PRISMAORM', 'SUPABASE', 'AUTH', 'JWT', 'POSTGRESQL', 'HEXAGONAL'],
-    image: Organizapi,
-    link: "#",
-    github: 'https://github.com/Selee-Posadas/organizapi.git',
-    state: 'IN_PROCESS'
   },
   {
     id: 3,
